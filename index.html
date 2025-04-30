@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link rel="manifest" href="manifest.json">
+  <title>Arya & Co.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome!</h1>
+  </header>
+
+  <section id="catalog">
+    <h2>Our Sweets</h2>
+    <div id="products"></div>
+  </section>
+
+  <section id="order">
+    <h2>Place an Order</h2>
+    <form id="orderForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="tel" id="phone" placeholder="Phone Number" required>
+      <select id="productSelect"></select>
+      <input type="number" id="quantity" placeholder="Quantity" min="1" value="1" required>
+      <input type="text" id="address" placeholder="Delivery Address" required>
+      <button type="submit">Submit Order</button>
+    </form>
+    <div id="orderStatus"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
