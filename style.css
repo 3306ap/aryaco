@@ -1,0 +1,10 @@
+body { font-family: sans-serif; margin: 0; padding: 1rem; }
+header { background: #f8b400; color: white; padding: 1rem; text-align: center; }
+#products { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; }
+.product-card { border: 1px solid #ddd; border-radius: 8px; padding: 0.5rem; text-align: center; }
+.product-card img { max-width: 100%; border-radius: 4px; }
+form { display: flex; flex-direction: column; gap: 0.5rem; max-width: 300px; }
+input, select, button { padding: 0.5rem; font-size: 1rem; }
+button { background: #f8b400; border: none; color: white; cursor: pointer; border-radius: 4px; }
+button:disabled { background: #ccc; cursor: not-allowed; }
+#orderStatus { margin-top: 1rem; }
